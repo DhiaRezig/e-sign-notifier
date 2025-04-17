@@ -1,0 +1,12 @@
+{ 
+    "name": "e-sign-notifier", 
+    "version": "1.0.0", 
+    "description": "Email notification service for e-signature workflows", 
+    "main": "index.js", "scripts": { "start": "node index.js" }, 
+    "dependencies": { 
+        "dotenv": "^16.0.3", 
+        "express": "^4.18.2", 
+        "handlebars": "^4.7.7", 
+        "nodemailer": "^6.9.1" 
+    } 
+} 
